@@ -1,6 +1,9 @@
 const fetchLib = require("node-fetch");
 const OpenVaultDataManager = require("./OpenVaultDataManager");
 
+/**
+ * @constructor
+ */
 class MeterManager extends OpenVaultDataManager {
      async getMeters () {
         const { LIST_METER } = this.URL

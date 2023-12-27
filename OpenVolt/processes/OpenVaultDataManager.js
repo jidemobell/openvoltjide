@@ -1,8 +1,10 @@
 const CONSTANTS = require("../lib/apiconstants")
 
-class OpenVaultDataManager {
 
-    // static  URL = URL
+/**
+ * @constructor
+ */
+class OpenVaultDataManager {
     constructor(api_key, meter_id) {
         this.api_key = api_key;
         this.meter_id = meter_id;

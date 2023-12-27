@@ -2,6 +2,12 @@ const { OpenVaultAPIManager } = require("./contracts/openVaultManager");
 const { IntervalDataManager} = OpenVaultAPIManager();
 const retryFetch = require("node-fetch-retry")
 
+/**
+ *
+ * @param meterId
+ * @param granularity
+ * @returns {Promise<*|undefined>}
+ */
 async function customerMonthlyConsumption (meterId, granularity) {
     // I hardcoded the start and end date assuming only January 2023
     let startDate = '2023-01-01', endDate = '2023-01-31',
@@ -16,7 +22,11 @@ async function customerMonthlyConsumption (meterId, granularity) {
 }
 
 
-
+/**
+ *
+ * @param meterId
+ * @returns {Promise<number>}
+ */
 async function monthlyCo2Emission (meterId) {
     try {
         const headers = { 'Accept':'application/json'};

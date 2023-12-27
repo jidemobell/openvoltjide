@@ -1,10 +1,10 @@
 # OPENVOLT CHALLENGE
 
 
-### Running the application**
+### Running the application
 > [!NOTE]  
 > the application requires a .env file with the following entry
-> OPENVAULT_API_KEY
+> OPENVAULT_API_KEY and runs on port 5500 which can be changed
 
 to run the application, do the following
 

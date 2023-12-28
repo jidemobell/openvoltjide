@@ -1,4 +1,4 @@
-const {monthlyCo2Emission, customerMonthlyConsumption} = require("../OpenVolt/service");
+const {monthlyCo2Emission, customerMonthlyConsumption} = require("../OpenVolt/services");
 
 
 /**

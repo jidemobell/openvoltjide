@@ -1,11 +1,11 @@
 const fetchLib = require("node-fetch");
-const OpenVaultDataManager = require("./OpenVaultDataManager");
+const OpenVaultDataManager = require("./OpenVoltRoutesManager");
 
 
 /**
  * @constructor
  */
-class IntervalDataManager  extends  OpenVaultDataManager {
+class IntervalDataManager  extends  OpenVoltRoutesManager {
     async getIntervalData(other_query_params) {
         const { GET_INTERVAL_DATA } = this.URL
 

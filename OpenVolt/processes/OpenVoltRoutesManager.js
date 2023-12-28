@@ -4,7 +4,7 @@ const CONSTANTS = require("../lib/apiconstants")
 /**
  * @constructor
  */
-class OpenVaultDataManager {
+class OpenVoltRoutesManager {
     constructor(api_key, meter_id) {
         this.api_key = api_key;
         this.meter_id = meter_id;
@@ -18,4 +18,4 @@ class OpenVaultDataManager {
     }
 }
 
-module.exports = OpenVaultDataManager;
+module.exports = OpenVoltRoutesManager;

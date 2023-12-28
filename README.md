@@ -6,6 +6,9 @@
 > the application requires a .env file with the following entry
 > OPENVAULT_API_KEY and runs on port 5500 which can be changed
 
+> [!NOTE]  
+> Please see attached development notes.
+
 to run the application, do the following
 
 ```sh

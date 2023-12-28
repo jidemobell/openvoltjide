@@ -1,0 +1,20 @@
+
+The Carbon Intensity API has a 'beta' section called Generation Mix
+though this section does not have a route for hourly readings ( I may be wrong )
+I also wasn't sure how the weights are distributed, I checked a couple of electricity data
+to have more understanding in this but decided to leave the final bit of the challenge out
+
+
+
+Issues:
+1. To get the carbon emission from the hourly readings, I got carbon intensity reading per hour timestamp (my assumption)
+,this meant that I had several api called which I combined in a promise.all.
+
+I noticed this few issues which I tried to resolve:
+a: reducing the overall execution time
+b: network error on some first attempts (this is resolved after the first call), due to time and commitment to some issues,
+I left this bit at the moment but I can come up with a work around for this.
+
+
+2. The Generation Mix section of the Carbon Intensity API does not have a half hourly route for a certain period but
+has one for the current half hour ( I may be wrong about this )

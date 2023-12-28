@@ -21,3 +21,5 @@ $ npm start
 | localhost:5500/energy/{meter_id}/{granularity}   |  localhost:5500/energy/6514167223e3d1424bf82742/month | value        |
 
 
+## Project Idea
+![design idea](openvoltimage.png)
